@@ -1,0 +1,48 @@
+.card1{
+    background: rgba(255, 255, 255, 0.19);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 300px;
+    height: 400px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 50px;
+    
+    
+    
+    }
+    .card-header{
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        background-color: #3c3c3d;
+        height: 125px;
+        
+        
+    }
+    .card-title{
+        position: relative;
+        top: -120%;
+        left: 20px;
+        color: aliceblue;
+        
+    }
+    
+    .card-img{
+        padding-left: 100px;
+        height: 200px;
+        width: 200px;
+    }
+    .card1 p{
+        font-size: 20px;
+    }
+    .coté{
+        color: aliceblue;
+        font-size: 20px;
+    }
+    .icon{
+        color: rgb(55, 226, 198);
+        font-size: 20px;
+    }
