@@ -1,11 +1,28 @@
 import "./App.css";
+import burger from "./assets/burger.png";
+import Card from "./components/Card";
 
-import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
+import Accueil from "./pages/Accueil";
+import Menu from "./pages/Menu";
+
 import { Header } from "./components/Header";
 import { Footer } from "./components/Footer";
 
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <BrowserRouter>
+        <Header />
+        <Routes>
+          <Route path="/" Component={Accueil}></Route>
+          <Route path="/Menu" Component={Menu}></Route>
+        </Routes>
+      </BrowserRouter>
+      <Footer />
+    </div>
+  );
 }
 
 export default App;
