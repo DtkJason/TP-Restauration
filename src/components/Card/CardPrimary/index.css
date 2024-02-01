@@ -26,12 +26,12 @@
         position: relative;
         top: -120%;
         left: 20px;
-        color: aliceblue;
+        color: rgb(32, 18, 18);
         
     }
     
     .card-img{
-        padding-left: 100px;
+        padding-left: 25px;
         height: 200px;
         width: 200px;
     }
@@ -39,10 +39,10 @@
         font-size: 20px;
     }
     .coté{
-        color: aliceblue;
+        color: rgb(32, 18, 18);
         font-size: 20px;
     }
     .icon{
-        color: rgb(55, 226, 198);
+        color: rgb(33, 78, 71);
         font-size: 20px;
     }
