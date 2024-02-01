@@ -1,6 +1,13 @@
 import "./index.css";
+import Button from "../../components/Button";
 
-export const Banner = ({ imagePath, title, content, imagePosition }) => {
+export const Banner = ({
+  imagePath,
+  title,
+  content,
+  imagePosition,
+  textButton,
+}) => {
   return (
     <div className="banner-container">
       {imagePosition === "left" && (
@@ -11,6 +18,7 @@ export const Banner = ({ imagePath, title, content, imagePosition }) => {
       <div className="banner-card">
         <h2>{title}</h2>
         <p>{content}</p>
+        <Button.Secondary label={textButton} />
       </div>
       {imagePosition === "right" && (
         <div className="image-container">

@@ -8,6 +8,7 @@ const Menu = () => {
       content="Ceci est une description"
       imagePath={img}
       imagePosition="left"
+      textButton="Commander"
     />
   );
 };

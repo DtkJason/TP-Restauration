@@ -8,6 +8,7 @@ const Accueil = () => {
       content="Ceci est une description"
       imagePath={img}
       imagePosition="right"
+      textButton="Voir Carte"
     />
   );
 };
