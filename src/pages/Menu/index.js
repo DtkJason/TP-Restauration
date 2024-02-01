@@ -1,5 +1,16 @@
+import { Banner } from "../../components/Banner";
+import img from "../../assets/burger.png";
+
 const Menu = () => {
-  return <h2>Menu</h2>;
+  return (
+    <Banner
+      title="Titre"
+      content="Ceci est une description"
+      imagePath={img}
+      imagePosition="left"
+      textButton="Commander"
+    />
+  );
 };
 
 export default Menu;

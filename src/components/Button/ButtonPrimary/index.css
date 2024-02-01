@@ -1,0 +1,16 @@
+.primary-button {
+  color: white;
+  background-color: #d21033;
+  border-radius: 5px;
+  padding: 12px;
+  border: none;
+}
+
+.primary-button:hover {
+  background-color: #97152d;
+}
+
+.text-primary {
+  text-transform: uppercase;
+  font-weight: bold;
+}

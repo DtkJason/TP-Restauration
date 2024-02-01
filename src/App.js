@@ -1,6 +1,4 @@
 import "./App.css";
-import burger from "./assets/burger.png";
-import Card from "./components/Card";
 
 import Accueil from "./pages/Accueil";
 import Menu from "./pages/Menu";

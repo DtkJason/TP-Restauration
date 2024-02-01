@@ -1,0 +1,17 @@
+.secondary-button {
+  color: #d21033;
+  background-color: white;
+  border-radius: 5px;
+  padding: 12px;
+  border: none;
+}
+
+.secondary-button:hover {
+  background-color: #d3d3d3;
+  color: red;
+}
+
+.text-secondary {
+  text-transform: uppercase;
+  font-weight: bold;
+}
