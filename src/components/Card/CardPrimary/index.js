@@ -1,12 +1,5 @@
 import "./index.css";
-export const Primary = ({
-  title,
-  label,
-  details,
-  icon,
-  iconPosition,
-  Background,
-}) => {
+export const Primary = ({ title, label, details, Background }) => {
   return (
     <div className="card1">
       <div className="card-header">
@@ -14,8 +7,10 @@ export const Primary = ({
       </div>
       <div className="card-body">
         <h2 className="card-title">{title}</h2>
-        <p>{label}</p>
-        <p>{details}</p>
+        <p className="detail">{label}</p>
+        <div className="details">
+          <p>{details}</p>
+        </div>
       </div>
     </div>
   );

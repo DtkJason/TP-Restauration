@@ -6,10 +6,11 @@
     -webkit-backdrop-filter: blur(5.5px);
     border: 1px solid rgba(255, 255, 255, 0.3);
     width: 300px;
-    height: 400px;
+    
     margin-left: 40px;
     margin-right: 40px;
     margin-top: 50px;
+
     
     
     
@@ -18,20 +19,39 @@
         border-top-right-radius: 15px;
         border-top-left-radius: 15px;
         background-color: #3c3c3d;
-        height: 125px;
+        height: 135px;
+        display: flex;
+justify-content: center;
+  
+        
+        
+    }
+    .card-body{
+        justify-content: center;
+        text-align: center;
+   
         
         
     }
     .card-title{
         position: relative;
-        top: -120%;
-        left: 20px;
+        margin-top: 20%;
+
+        
+
         color: rgb(32, 18, 18);
+        
+    }
+
+    .detail{
+        position: relative;
+    
+        color: rgb(26, 13, 13);
         
     }
     
     .card-img{
-        padding-left: 25px;
+        
         height: 200px;
         width: 200px;
     }
@@ -45,4 +65,9 @@
     .icon{
         color: rgb(33, 78, 71);
         font-size: 20px;
+    }
+
+    .details{
+        display: none;
+
     }
