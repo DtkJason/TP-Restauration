@@ -1,5 +1,15 @@
+import { Banner } from "../../components/Banner";
+import img from "../../assets/burger.png";
+
 const Accueil = () => {
-  return <h2>Accueil</h2>;
+  return (
+    <Banner
+      title="Titre"
+      content="Ceci est une description"
+      imagePath={img}
+      imagePosition="right"
+    />
+  );
 };
 
 export default Accueil;

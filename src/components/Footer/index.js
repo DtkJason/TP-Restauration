@@ -1,5 +1,9 @@
+import "./index.css";
+
 export const Footer = () => {
   return (
-    <footer>Copyright © 2024 Mon restaurant - Tous droits réservés.</footer>
+    <footer className="footer-container">
+      Copyright © 2024 MonFastFood - Tous droits réservés.
+    </footer>
   );
 };
