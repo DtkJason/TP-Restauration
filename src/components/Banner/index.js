@@ -1,30 +1,11 @@
-import "./index.css";
-import Button from "../../components/Button";
+import { Red } from "./BannerRed";
+import { Black } from "./BannerBlack";
 
-export const Banner = ({
-  imagePath,
-  title,
-  content,
-  imagePosition,
-  textButton,
-}) => {
-  return (
-    <div className="banner-container">
-      {imagePosition === "left" && (
-        <div className="image-container">
-          <img src={imagePath} alt={title} className="banner-image" />
-        </div>
-      )}
-      <div className="banner-card">
-        <h2>{title}</h2>
-        <p>{content}</p>
-        <Button.Secondary label={textButton} />
-      </div>
-      {imagePosition === "right" && (
-        <div className="image-container">
-          <img src={imagePath} alt={title} className="banner-image" />
-        </div>
-      )}
-    </div>
-  );
+const Banner = ({ children }) => {
+  return <div>{children}</div>;
 };
+
+Banner.Red = Red;
+Banner.Black = Black;
+
+export default Banner;
