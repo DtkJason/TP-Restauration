@@ -8,7 +8,10 @@ const Accueil = () => {
     <div className="accueil-container">
       <Banner.Red
         title="Bienvenue chez Ipssi Burger"
-        content="Ceci est une description"
+        content="Découvrez une expérience gustative incomparable 
+        chez IPSSI BURGER, le rendez-vous incontournable des passionnés de burgers ! 
+        Notre site célèbre l'art de créer des menus exceptionnels, 
+        où chaque bouchée est une explosion de saveurs."
         imagePath={img}
         imagePosition="right"
         textButton="Voir Carte"

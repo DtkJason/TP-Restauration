@@ -13,7 +13,7 @@ export const Footer = () => {
         <Icon imagePath={instagram} title="Instagram" />
         <Icon imagePath={twitter} title="Twitter" />
       </div>
-      <p>Copyright © 2024 MonFastFood - Tous droits réservés.</p>
+      <p>Copyright © 2024 IPSSI BURGER - Tous droits réservés.</p>
     </footer>
   );
 };
