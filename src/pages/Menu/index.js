@@ -1,9 +1,9 @@
-import { Banner } from "../../components/Banner";
+import Banner from "../../components/Banner";
 import img from "../../assets/burger.png";
 
 const Menu = () => {
   return (
-    <Banner
+    <Banner.Black
       title="Titre"
       content="Ceci est une description"
       imagePath={img}
